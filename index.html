@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Basic To Do app</title>
+</head>
+
+<body>
+
+<h1>Data List</h1>
+<div>
+    <button onclick="handlers.displayData()">Display Data</button>
+    <button onclick="handlers.toggleAll()">Toggle All</button> 
+</div>
+
+<div>
+    <input id="addDataInput" type="text">
+    <button onclick="handlers.addData()">Add Data</button>
+</div>
+
+<div>
+    <input id="changePositionInput" type="number">
+    <input id="changeDataTextInput" type="text">
+    <button onclick="handlers.changeData()">Change Data</button>
+</div>
+
+<div>
+    <input id="deletePositionInput" type="number">
+    <button onclick="handlers.deleteData()">Delete</button>
+</div>
+
+<div>
+    <input id="toggleCompletedInput" type="number">
+    <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+</div>
+
+<ul>
+    
+</ul>
+
+<script src="app.js"></script>
+</body>
+
+</html>
